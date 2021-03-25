@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:text="@string/register"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -97,10 +97,10 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_register"
         android:layout_width="130dp"
         android:layout_height="55dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="@string/register"
         app:cornerRadius="10dp"
@@ -108,7 +108,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

@@ -5,4 +5,11 @@
     <string name="image_top_right">Image Top Right</string>
     <string name="login">Login</string>
     <string name="please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="register">Register</string>
+    <string name="please_fill_out_the_registration_form">Please fill out the registration form</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>

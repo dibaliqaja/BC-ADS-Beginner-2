@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BC ADS 2</string>
+    <string name="icon_apps">Icon Apps</string>
+    <string name="get_started">Get Started</string>
+    <string name="image_top_right">Image Top Right</string>
+    <string name="login">Login</string>
+    <string name="please_sign_in_to_continue">Please sign in to continue</string>
+</resources>

@@ -13,6 +13,7 @@ class WelcomeActivity : AppCompatActivity() {
         btn_started.setOnClickListener {
             finish()
             startActivity(Intent(this, SignInActivity::class.java))
+            overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out)
         }
     }
 }

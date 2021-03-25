@@ -11,13 +11,17 @@ class SignInActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_in)
 
         btn_login.setOnClickListener {
-            finish()
             startActivity(Intent(this, HomeActivity::class.java))
+            overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out)
         }
 
         tv_signup.setOnClickListener {
-            finish()
             startActivity(Intent(this, SignUpActivity::class.java))
+            overridePendingTransition(R.anim.slide_in, R.anim.slide_in_out)
         }
+    }
+
+    override fun onBackPressed() {
+        finish()
     }
 }

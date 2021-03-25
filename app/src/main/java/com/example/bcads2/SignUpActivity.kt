@@ -11,13 +11,20 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
 
         btn_register.setOnClickListener {
-            finish()
-            startActivity(Intent(this, HomeActivity::class.java))
+            back()
         }
 
         tv_signin.setOnClickListener {
-            finish()
-            startActivity(Intent(this, SignInActivity::class.java))
+            back()
         }
+    }
+
+    override fun onBackPressed() {
+        back()
+    }
+
+    private fun back() {
+        finish()
+        overridePendingTransition(R.anim.no_animation, R.anim.slide_out)
     }
 }
